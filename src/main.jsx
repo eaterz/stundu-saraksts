@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import Day from "./diena";
 
 // 1. Iegūt elementu no index.html
 const elementNoHTML = document.getElementById("root");
