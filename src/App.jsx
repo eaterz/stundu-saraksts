@@ -25,7 +25,7 @@ function App() {
     "latviesvaloda",
     "valodas kultura",
   ];
-  const piekdienStundas = ["anglu val", "vesture", " ", " "];
+  const piekdienStundas = ["anglu val", "vesture"];
   return (
     <>
       <Day nosaukums="pirmdien" stundas={pirmdienStundas} />
