@@ -1,8 +1,8 @@
-function Stundas(props) {
+function Stunda(props) {
   return (
     <>
       <li>{props.name}</li>
     </>
   );
 }
-export default Stundas;
+export default Stunda;

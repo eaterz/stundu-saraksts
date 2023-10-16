@@ -1,12 +1,20 @@
-import Stunda from "./stundas";
+import Stunda from "./Stunda";
+import styles from "./Day.module.css";
 
 function Day(props) {
-  const stunduSarakstsJSX = props.stundas.map((stunda) => {
-    return <Stunda name={stunda} />;
+  const stunduSarakstsJSX = props.stundas.map((stunda, indekss) => {
+    return (
+      <table className={styles.stunda}>
+        <Stunda key={indekss} name={stunda} />
+      </table>
+    );
   });
   return (
     <>
-      <p>sodien ir {props.nosaukums}</p>
+      <table className={styles.diena}>
+        <p>sodien ir {props.nosaukums}</p>
+      </table>
+
       <ol>{stunduSarakstsJSX}</ol>
     </>
   );

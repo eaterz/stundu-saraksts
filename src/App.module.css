@@ -1,0 +1,11 @@
+.virs {
+  color: red;
+}
+.table {
+  margin-top: 8px;
+  border-top: 2px solid #000000;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  width: 20vw;
+}
